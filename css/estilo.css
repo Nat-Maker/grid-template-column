@@ -1,0 +1,19 @@
+body {
+    background-color: #eccedc;
+}
+
+#myDIV {
+    height: 300px;
+    display: grid;
+    gap: 10px;
+    background-color: #a16a86;
+    padding: 10px;
+    grid-template-columns: auto max-content 50%;
+}
+
+#myDIV div {
+    background-color: rgba(248, 238, 243, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
